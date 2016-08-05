@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Bluetooth Menu">
+
+    <CheckBoxPreference
+        android:title = "@string/auto_connect"
+        android:defaultValue = "false"
+        android:key = "@string/autoConnect"
+        />
+
+    <com.example.phil.bluetoothgatt.ClearModuleDialog
+        android:key="clearDialog"
+        android:title="@string/Clear"
+    />
+
+    <com.example.phil.bluetoothgatt.SelectedModuleDialog
+        android:key="displayModule"
+        android:title="Selected Module"
+     />
+
+</PreferenceScreen>

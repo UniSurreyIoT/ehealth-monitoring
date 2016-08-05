@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:title = "@string/use_default_email"
+        android:defaultValue = "false"
+        android:key = "@string/useDefaultEmail"
+        />
+
+    <EditTextPreference
+        android:title = "@string/default_email"
+        android:key="@string/defaultEmailAddress"
+        />
+</PreferenceScreen>

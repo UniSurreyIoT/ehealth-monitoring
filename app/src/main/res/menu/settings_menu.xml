@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuBluetooth"
+        android:alphabeticShortcut="a"
+        android:title="@string/bluetooth_menu"
+        android:orderInCategory="1" >
+        <menu>
+            <item
+                android:id="@+id/menuBluetoothScan"
+                android:title="@string/bluetooth_scan"
+            />
+            <item
+                android:id="@+id/menuBluetoothSettings"
+                android:title="@string/bluetooth_settings"
+             />
+            <item
+                android:id="@+id/menuModuleOptions"
+                android:title="Module Options"
+             />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu2"
+        android:alphabeticShortcut="b"
+        android:title="Data"
+        android:orderInCategory="2">
+        <menu>
+            <item
+                android:id="@+id/clearDatabase"
+                android:title="Clear Database"
+            />
+            <item
+                android:id="@+id/setupEmail"
+                android:title="Setup Email"
+            />
+        </menu>
+    </item>
+</menu>

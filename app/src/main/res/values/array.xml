@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="temperatureListArray">
+            <item>None</item>
+            <item>Smoothing</item>
+            <item>PAA</item>
+            <item>Adaptive</item>
+        </string-array>
+
+        <string-array name="temperatureListValues">
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+            <item>4</item>
+        </string-array>
+
+        <array name="exportOptions">
+            <item>BPM</item>
+            <item>SPO2</item>
+            <item>ECG</item>
+            <item>EMG</item>
+            <item>Airflow</item>
+            <item>Temperature</item>
+            <item>Blood Pressure</item>
+            <item>Body Position</item>
+            <item>Glucometer</item>
+        </array>
+</resources>

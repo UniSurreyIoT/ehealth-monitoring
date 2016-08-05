@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.phil.bluetoothgatt"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <!-- Min/target SDK versions (<uses-sdk>) managed by build.gradle -->
+
+    <!-- Declare this required feature if you want to make the app available to BLE-capable
+    devices only.  If you want to make your app available to devices that don't support BLE,
+    you should omit this in the manifest.  Instead, determine BLE capability by using
+    PackageManager.hasSystemFeature(FEATURE_BLUETOOTH_LE) -->
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <application
+        android:label="eHealth Monitor"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Healthcare Monitor"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+
+
+
+        <activity android:name=".BluetoothConnectActivity"
+            android:label = "Device Discovery"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".BluetoothPreferences"
+            android:label="Bluetooth settings"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".SplashScreenActivity"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".MailSenderActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ModulePreferences"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".EmailPreferences"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TemperaturePreferences"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ResultsSwipeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SwipeTheme"/>
+        <activity android:name=".ExportDatabaseActivity"
+            android:screenOrientation="portrait"/>
+        <service android:name=".BluetoothLeService" android:enabled="true"/>
+
+
+        <receiver android:name=".AlarmReceiver"/>
+    </application>
+
+</manifest>

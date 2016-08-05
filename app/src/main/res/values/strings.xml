@@ -1,0 +1,90 @@
+<resources>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="no_devices_connected">No devices connected</string>
+    <string name="device_refound">Device reconnected</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+    <string name="device_not_connected">No device connected</string>
+    <string name="sensorAvailability">Sensor Availability</string>
+    <string name="collectingInformation">Collecting Module Information</string>
+    <string name="pleaseWait">Please wait....</string>
+    <string name="device_not_found">Device not found. Please choose another</string>
+    <string name="email_title">Ehealth file</string>
+    <string name="use_default_email">Use Default Email Address</string>
+    <string name="useDefaultEmail">useEmail</string>
+    <string name="default_email">Default Email Address</string>
+    <string name="defaultEmailAddress">emailAddress</string>
+    <string name="paediatric_monitor">Paediatric Monitor</string>
+    <string name="paediatric_monitor2">Paediatric Monitor2</string>
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="bluetooth_menu">Bluetooth</string>
+    <string name="bluetooth_scan">Device Scan</string>
+    <string name="bluetooth_settings">Bluetooth Settings</string>
+
+    <!--Discovery -->
+    <string name="continuing_discovery">Continuing Discovery</string>
+    <string name = "available_sensors">Getting Available Sensors</string>
+    <!-- Preference strings -->
+    <string name="auto_connect">Auto connect</string>
+
+    <!--Swipe Tabs -->
+    <string name="SPO2">SPO2</string>
+    <string name="BPM">BPM</string>
+    <string name="PulseOxiometer">PulseOxiometer</string>
+    <string name="ECG">ECG</string>
+    <string name="EMG">EMG</string>
+    <string name="Airflow">Airlow</string>
+    <string name="Temperature">Temperature</string>
+    <string name="BP">Blood Pressure</string>
+    <string name="Position">Body Position</string>
+    <string name="GSR">GSR</string>
+    <string name="Glucometer">Glucometer</string>
+
+    <!--Temperature Fragment -->
+    <string name="TemperatureRealtimeCheckbox">Realtime</string>
+    <string name="temperatureFitAll">Fit All</string>
+    <string name="temperatureAllowScroll">Allow Scroll</string>
+    <string name="temperatureSelectRange">Select Range</string>
+    <string name="temperatureRealtime">Realtime</string>
+    <string name="temperatureProcessing">TemperatureProcessing</string>
+
+    <!-- Preferences -->
+    <string name = "autoConnect">autoConnect</string>
+    <string name = "moduleOptions">ModuleOptions</string>
+    <string name="SPO2Option">SPO2Option</string>
+    <string name="BPMOption">BPMOption</string>
+    <string name="PulseOxiometerOption">PulseOxiometerOption</string>
+    <string name="ECGOption">ECGOption</string>
+    <string name="EMGOption">EMGOption</string>
+    <string name="AirflowOption">AirlowOption</string>
+    <string name="TemperatureOption">TemperatureOption</string>
+    <string name="BPOption">BloodPressureOption</string>
+    <string name="PositionOption">BodyPositionOption</string>
+    <string name="GSROption">GSROption</string>
+    <string name="GlucometerOption">GlucometerOption</string>
+    <string name="ModuleDefault">moduleDefault</string>
+    <string name="Clear">Clear Bluetooth Settings</string>
+    <string name="collectTemperature">Collect Temperature</string>
+    <string name="noModule">No Module selected</string>
+    <string name="selectExportValues">Select export values</string>
+    <string name="selectExportTypes">Select export types</string>
+    <string name="selectStartTime">Select start time</string>
+    <string name="selectStartDate">Select start date</string>
+    <string name="selectEndTime">Select end time</string>
+    <string name="selectEndDate">Select end date</string>
+    <string name="exportToFile">Export to file</string>
+    <string name="exportAndEmail">Export and Email</string>
+</resources>

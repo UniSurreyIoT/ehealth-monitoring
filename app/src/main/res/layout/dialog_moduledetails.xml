@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20px"
+    android:id="@+id/module_popup">
+
+
+    <CheckBox
+        android:id="@+id/popup_SPO2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="SPo2"
+        android:clickable="false"
+        />
+    <CheckBox
+        android:id="@+id/popup_BPM"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="BPM"
+        android:clickable="false"
+        />
+    <CheckBox
+        android:id="@+id/popup_ECG"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="ECG"
+        android:clickable="false"
+        />
+    <CheckBox
+        android:id="@+id/popup_EMG"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="EMG"
+        android:clickable="false"
+        />
+    <CheckBox
+        android:id="@+id/popup_airflow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Airflow"
+        android:clickable="false"
+        />
+    <CheckBox
+        android:id="@+id/popup_temperature"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Temperature"
+        android:clickable="false"
+        />
+    <CheckBox
+        android:id="@+id/popup_bloodpressure"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Blood Pressure"
+        android:clickable="false"
+        />
+    <CheckBox
+        android:id="@+id/popup_bodyposition"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Body Position"
+        android:clickable="false"
+        />
+    <CheckBox
+        android:id="@+id/popup_GSR"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="GSR"
+        android:clickable="false"
+        />
+    <CheckBox
+        android:id="@+id/popup_glucometer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Glucometer"
+        android:clickable="false"
+        />
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|bottom">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/popup_select_button"
+            android:text="Select"
+         />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/popup_cancel_button"
+            android:text="Cancel"
+        />
+
+    </LinearLayout>
+</LinearLayout>

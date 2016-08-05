@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuTemperature"
+        android:alphabeticShortcut="a"
+        android:title="Temperature"
+        android:orderInCategory="1" >
+        <menu>
+            <item
+                android:id="@+id/setTemperatureSampleTime"
+                android:title="Sample Time"
+                />
+            <item
+                android:id="@+id/TemperatureSettings"
+                android:title="Temperature Settings"
+                />
+            <item
+                android:id="@+id/TemperatureDataCompression"
+                android:title="Data Compression"
+                />
+        </menu>
+    </item>
+</menu>

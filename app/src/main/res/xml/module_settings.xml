@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key = "ModulePreferences"
+        android:title = "ModulePreferences"/>
+
+    <Preference
+        android:key="@string/moduleOptions"
+        android:title="@string/moduleOptions"
+        />
+
+    <CheckBoxPreference
+        android:key="collectSPO2Checkbox"
+        android:title="@string/SPO2"
+        >
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:key="collectBPMCheckbox"
+        android:title="@string/BPM"
+        >
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:key="collectECGCheckbox"
+        android:title="@string/ECG"
+        >
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:key="collectEMGCheckbox"
+        android:title="@string/EMG"
+        >
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:key="collectAirflowCheckbox"
+        android:title="@string/Airflow"
+        >
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:key="collectTemperatureCheckbox"
+        android:title="@string/Temperature"
+        >
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:key="collectBPCheckbox"
+        android:title="@string/BP"
+        >
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:key="collectPositionCheckbox"
+        android:title="@string/Position"
+        >
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:key="collectGSRCheckbox"
+        android:title="@string/GSR"
+        >
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:key="collectGlucometerCheckbox"
+        android:title="@string/Glucometer"
+        >
+    </CheckBoxPreference>
+
+
+</PreferenceScreen>

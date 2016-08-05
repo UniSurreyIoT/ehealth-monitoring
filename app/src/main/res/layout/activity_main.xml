@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background" >
+
+    <Button
+        android:id="@+id/mainConnect"
+        android:layout_width="162dp"
+        android:layout_height="162dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/background_selector_top_left"
+        android:focusable="true"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="Connect"
+        android:drawableTop="@drawable/connect_selector"
+
+     >
+
+    </Button>
+
+    <ImageButton
+        android:id="@+id/shutdown"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignTop="@+id/mainConnect"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="136dp"
+        android:background="@drawable/power" />
+
+    <Button
+        android:id="@+id/mainDisconnect"
+        android:layout_width="162dp"
+        android:layout_height="162dp"
+        android:background="@drawable/background_selector_top_right"
+        android:layout_alignBottom="@+id/mainConnect"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+
+        android:focusable="true"
+        android:text="Disconnect"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:drawableTop="@drawable/disconnect_selector"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/createCSV"
+        android:layout_width="162dp"
+        android:layout_height="162dp"
+        android:layout_alignLeft="@+id/mainDisconnect"
+        android:layout_below="@+id/shutdown"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button_bottom_right"
+        android:focusable="true"
+        android:drawableTop="@drawable/export"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/graph"
+        android:layout_width="162dp"
+        android:layout_height="162dp"
+        android:layout_alignBaseline="@+id/createCSV"
+        android:layout_alignBottom="@+id/createCSV"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/button_bottom_left"
+        android:focusable="true"
+        android:drawableTop="@drawable/graph"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

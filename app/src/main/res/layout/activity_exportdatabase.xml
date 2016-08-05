@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selectExportValues"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/selectExportTypes"
+        android:id="@+id/selectTypes"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:layout_margin="20dp"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:rowCount="4"
+        android:columnCount="2"
+        android:layout_margin="20dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/selectStartTime"
+            android:id="@+id/selectStartTime"
+            android:layout_column="0"
+            android:layout_row="0"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/startTimeText"
+            android:textSize="16dp"
+            android:background="@drawable/border"
+            android:layout_column="1"
+            android:layout_row="0"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/selectStartDate"
+            android:id="@+id/selectStartDate"
+            android:layout_column="0"
+            android:layout_row="1"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/startDateText"
+            android:textSize="16dp"
+            android:background="@drawable/border"
+            android:layout_column="1"
+            android:layout_row="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/selectEndTime"
+            android:id="@+id/selectEndTime"
+            android:layout_column="0"
+            android:layout_row="2"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/endTimeText"
+            android:textSize="16dp"
+            android:background="@drawable/border"
+            android:layout_column="1"
+            android:layout_row="2"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/selectEndDate"
+            android:id="@+id/selectEndDate"
+            android:layout_column="0"
+            android:layout_row="3"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:id="@+id/endDateText"
+            android:background="@drawable/border"
+            android:layout_column="1"
+            android:layout_row="3"/>
+
+    </GridLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exportToFile"
+            android:id="@+id/runExport"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exportAndEmail"
+            android:id="@+id/runExportEmail"/>
+
+    </LinearLayout>
+
+</LinearLayout>

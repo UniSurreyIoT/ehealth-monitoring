@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="temperatureProcessingScreen">
+
+    <ListPreference
+        android:title="Data processing"
+        android:summary="Select the data processing you would like to apply"
+        android:key="@string/temperatureProcessing"
+        android:defaultValue="1"
+        android:entries="@array/temperatureListArray"
+        android:entryValues="@array/temperatureListValues" />
+
+    <PreferenceCategory
+        android:title = "Adaptive compression"
+        android:summary = "Set minimum and maximum values"
+        android:key="Adaptive compression">
+
+        <EditTextPreference
+            android:title = "Set minimum value"
+            android:key = "temperatureAdaptiveMinimum"
+            android:inputType="numberDecimal">
+
+        </EditTextPreference>
+        <EditTextPreference
+            android:title = "Set maximum value"
+            android:key="temperatureAdaptiveMaximum"
+            android:inputType="numberDecimal">
+
+        </EditTextPreference>
+
+        <com.example.phil.bluetoothgatt.TimeSelector
+            android:key="temperatureMaximumInterval"
+            android:dialogMessage="Select between 1 second and 24 hours"
+            android:title="Set maximum interval"
+            android:defaultValue="1"/>
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
